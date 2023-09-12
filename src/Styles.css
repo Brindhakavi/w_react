@@ -1,0 +1,29 @@
+.Header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    
+}
+ul{
+    font-size: 25px;
+  font-family: cursive;
+  list-style-type: square;
+ background-color: aquamarine;
+  margin-left: 15px;
+}
+ol{
+ margin-left: 30px;
+
+}
+ /* li{
+    display: inline;
+     //it will eliminates all the list ex: disc,square 
+}  */
+p{
+    text-align: center;
+    color: burlywood;
+}
+h2{
+    text-decoration: dashed;
+    text-align: center;
+    font-family: monospace;
+}

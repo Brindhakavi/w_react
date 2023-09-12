@@ -1,17 +1,11 @@
+import React from"react";
+import Login from "./Login";
 
- import "./align.css"; import { useState } from "react";
-export default function App()
- {
-     const [num,setnum] = useState(3);
-
- return (
-    <div className = "num">
-         num{num}
-         <div>
-              <button onClick={()=>setnum(num*2)}>*</button>
-            <button onClick = {()=>setnum(num/2)}>/</button>
-        </div>
-    </div>
-)
+const App = ()=>{
+  return(
+    <>
+    <Login/>
+    </>
+  );
 }
-
+export default App;

@@ -10,7 +10,7 @@ class ClassEx extends React.Component{
     }
     render(){
         return(
-            <>
+            <div className="ClassEx">
        Num{this.state.num}
         <div>
              <button 
@@ -30,7 +30,7 @@ class ClassEx extends React.Component{
             >division of 2
                 </button>
                 </div>
-                </>
+                </div>
                 );
               }
 } 
