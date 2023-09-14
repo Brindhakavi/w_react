@@ -30,6 +30,7 @@ const Login =() => {
                 <h3>Member Login</h3>
                 <input type = "text" 
                 placeholder="User Name" 
+                autoComplete="off"
                 id= "name"
                 value = {userName} 
                 onChange = {(e)=>{
