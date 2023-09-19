@@ -19,18 +19,19 @@ console.log( List, "List");
          <table>  
             <thead>
 <tr>
-    <th>userId</th>
     <th>id</th>
     <th>title</th>
+    <th>completed</th>
 </tr> 
  </thead> 
   <tbody>
                 {List.map((items,key) =>{
                 return (
                     <tr>
-                        <td>{items.userId}</td>
+                        
                         <td>{items.id}</td>
                         <td>{items.title}</td>
+                        <td>{items.completed ?"True":"False"}</td>
                     </tr>
                 )
                  } )}
